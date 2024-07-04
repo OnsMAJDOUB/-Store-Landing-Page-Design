@@ -147,3 +147,38 @@ font-family: "Caveat", cursive;
 .footer .social-icons a:hover {
     color: #dcdcdc;
 }
+
+
+.test{
+    background-color: lightblue;
+    top: 75%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+}
+
+i{
+    cursor: pointer;
+}
+
+.icons i {
+    font-size: 20px;
+    color: rgb(30, 48, 80);
+}
+.icons i:hover {
+    color: rgb(162, 14, 112);
+}
